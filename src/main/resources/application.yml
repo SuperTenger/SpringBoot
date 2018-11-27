@@ -1,0 +1,13 @@
+spring:
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/views/
+  datasource:
+    url:  jdbc:mysql://127.0.0.1:3306/nba?characterEncoding=UTF-8
+    username: root
+    password: 111111
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
